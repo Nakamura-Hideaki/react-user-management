@@ -1,0 +1,25 @@
+/*  src/styles/theme/light.css  */
+
+/* 🎨 lightテーマ */
+[data-theme="light"] {
+  --theme-bg-color: #ffffff;                      /* headerとボタン以外のバック色*/
+  --theme-text-color: #080808;                    /*すべての文字の色*/
+  --theme-button-bg: #808080;
+  --theme-button-border-hover: #646cff;
+  --theme-link-color: #646cff;
+  --theme-link-hover-color: #747bff;
+
+  --theme-table-bg-color: #ffffff;
+
+  --theme-row-selected-bg: #d0ebff;
+  --theme-row-selected-text: #000;
+
+  --theme-user-table-tbody-stripe-background-color: rgba(0,0,0,0.02);
+  --theme-user-table-tbody-stripe-border-top: 1px solid rgba(0,0,0,0.03);
+
+  --theme-user-table-th-background-color: #a0a0a0;
+  --theme-user-table-th-color: #484848;
+
+  --theme-user-row-hover-background-color: rgba(0,0,0,0.06);
+
+}

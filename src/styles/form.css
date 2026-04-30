@@ -1,0 +1,15 @@
+/*  src/styles/form.css */
+/*  入力系  */
+
+input {
+  padding: 8px 10px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-width: 200px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #646cff;
+}

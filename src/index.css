@@ -1,0 +1,47 @@
+/*  src/index.css */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+    /* 🎨 テーマ変数 */
+  --bg-color: var(--theme-bg-color);
+  --text-color: var(--theme-text-color);
+  --button-bg: var(--theme-button-bg);
+  --button-border-hover: var(--theme-button-border-hover);
+  --link-color: var(--theme-link-color);
+  --link-hover-color: var(--theme-link-hover-color);
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --row-selected-bg: var(--theme-row-selected-bg);
+  --row-selected-text: var(--theme-row-selected-text);
+}
+
+a {
+  font-weight: 500;
+  color: var(--link-color);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--link-hover-color);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+
+.user-row {
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+

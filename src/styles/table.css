@@ -1,0 +1,45 @@
+/*  src/styles/table.css */
+/*  テーブル  */
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  background: var(--theme-table-bg-color);
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.user-table th {
+  cursor: pointer;
+  user-select: none;
+}
+
+/* 選択行 */
+.user-row.selected {
+  border-left: 4px solid #646cff;
+  background-color: var(--row-selected-bg);
+  color: var(--row-selected-text);
+}
+
+/* ホバー */
+.user-row:not(.selected):hover {
+  background-color: var(--theme-user-row-hover-background-color);
+  outline: 1px solid #646cff;
+}
+
+/* ストライプ */
+.user-table tbody tr:nth-child(even):not(.selected) {
+  background-color: var(--theme-user-table-tbody-stripe-background-color);
+  border-top: var(--theme-user-table-tbody-stripe-border-top);
+}
+/* ヘッダ */
+.user-table th {
+  background-color: var(--theme-user-table-th-background-color);
+  color: var(--theme-user-table-th-color);
+}
