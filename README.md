@@ -76,6 +76,7 @@ npm install
 npm run preview
 
 ## 📂 ディレクトリ構成
+```
 src/
  ├─ api/
  │   └─ UsersApi.ts
@@ -90,7 +91,7 @@ src/
  │   └─ UserTable.tsx
  │
  ├─ hooks/
- │   ├─ useKeybordNavigation.ts
+ │   ├─ useKeyboardNavigation.ts
  │   ├─ useQueryParams.ts
  │   └─ useUsers.ts
  │
@@ -114,4 +115,6 @@ src/
  ├─ main.tsx
  ├─ ThemeContext.tsx
  └─ UserDetail.tsx
+```
+
 
